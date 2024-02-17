@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/features/11-jsdoc.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
